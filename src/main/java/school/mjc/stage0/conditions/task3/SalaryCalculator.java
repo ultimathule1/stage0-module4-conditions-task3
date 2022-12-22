@@ -13,6 +13,6 @@ public class SalaryCalculator {
             System.out.println("wrong input!");
             return;
         }
-        System.out.println(sum);
+        System.out.println((int)sum);
     }
 }

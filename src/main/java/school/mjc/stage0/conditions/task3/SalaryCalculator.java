@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task3;
 
 public class SalaryCalculator {
     public void calculateSalary(int salary) {
-        int sum = salary;
+        double sum = salary;
         if (salary <= 0 ){
             System.out.println("wrong input!");
             return;
